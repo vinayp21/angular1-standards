@@ -1,0 +1,194 @@
+baseurl = "https://www.example.com/" # Make sure to end baseurl with a '/'
+languageCode = "en-us"
+title = "Angular Style Guide"
+author = "Santhosh Raju"
+theme = "blackburn"
+canonifyurls = true
+
+[indexes]
+  tag = "angular style guide"
+  topic = "angular style guid"
+
+[params]
+  subtitle = "Definitive style guide for Angular 1.X"
+  brand = "Angular 1.X Style Guide"
+
+  custom_css = ["css/style.css"]
+  custom_js = ["js/script.js"]
+
+[menu]
+  [[menu.main]]
+    name = "Introduction"
+    pre = "<i class='fa fa-home fa-fw'></i>"
+    weight = 0
+    identifer = "home"
+    url = "/"
+
+    [[menu.main]]
+    name = "Project Structure"
+    pre = ""
+    weight = 1
+
+    url = "/post/project-structure/"
+
+    [[menu.main]]
+    name = "Single Responsibilty Per Module"
+    pre = ""
+    weight = 2
+    identifier = "single-responsibility"
+    url = "/post/single-responsibility-per-module"
+
+    [[menu.main]]
+    name = "Containing Everything in IIFE"
+    pre = ""
+    weight = 3
+    identifier = "containing-in-IIFE"
+    url = "/post/containing-everything-in-IIFE"
+
+    [[menu.main]]
+    name = "Modules"
+    pre = ""
+    weight = 4
+    identifier = "modules"
+    url = "/post/modules/"
+
+    [[menu.main]]
+    name = "Services & Factories"
+    pre = ""
+    weight = 5
+    identifier = "services"
+    url = "/post/services"
+
+    [[menu.main]]
+    name = "Controllers"
+    pre = ""
+    weight = 6
+    identifier = "controllers"
+    url = "/post/controllers"
+
+
+    [[menu.main]]
+    name = "Directives"
+    pre = ""
+    weight = 9
+    identifier = "directives"
+    url = "/post/directives"
+
+    [[menu.main]]
+    name = "Resolving Promises"
+    pre = ""
+    weight = 10
+    identifier = "resolving-promises"
+    url = "/post/resolving-promises"
+
+    [[menu.main]]
+    name = "Manual annotating For Dependency Injections"
+    pre = ""
+    weight = 11
+    identifier = "manual-annotating-dependency-injections"
+    url = "/post/manual-annotating-dependency-injections"
+
+    [[menu.main]]
+    name = "Minification & Annotation Practices"
+    pre = ""
+    weight = 12
+    identifier = "minfication-annotation"
+    url = "/post/minification-annotation"
+
+    [[menu.main]]
+    name = "Naming Conventions"
+    pre = ""
+    weight = 13
+    identifier = "naming-conventions"
+    url = "/post/naming-conventions"
+
+    [[menu.main]]
+    name = "Modularity"
+    pre = ""
+    weight = 14
+    identifier = "modularity"
+    url = "/post/modularity"
+
+    [[menu.main]]
+    name = "Startup Logic"
+    pre = ""
+    weight = 15
+    identifier = "startup-logic"
+    url = "/post/startup-logic"
+
+    [[menu.main]]
+    name = "Angular $ wrapper services"
+    pre = ""
+    weight = 16
+    identifier = "angular-wrapper-services"
+    url = "/post/angular-wrapper-services"
+
+    [[menu.main]]
+    name = "Animations"
+    pre = ""
+    weight = 17
+    identifier = "animations"
+    url = "/post/animations"
+
+    [[menu.main]]
+    name = "Commenting"
+    pre = ""
+    weight = 18
+    identifier = "commenting"
+    url = "/post/commenting"
+
+    [[menu.main]]
+    name = "Constants"
+    pre = ""
+    weight = 19
+    identifier = "constants"
+    url = "/post/constants"
+
+    [[menu.main]]
+    name = "File Templates & Snippets"
+    pre = ""
+    weight = 20
+    identifier = "file-template-snippets"
+    url = "/post/file-template-snippets"
+
+    [[menu.main]]
+    name = "Routing"
+    pre = ""
+    weight = 21
+    identifier = "routing"
+    url = "/post/routing"
+
+    [[menu.main]]
+    name = "Filters"
+    pre = ""
+    weight = 22
+    identifier = "filters"
+    url = "/post/filters"
+
+    [[menu.main]]
+    name = "Decorators"
+    pre = ""
+    weight = 23
+    identifier = "decorators"
+    url = "/post/decorators"
+
+    [[menu.main]]
+    name = "Components (Building web components)"
+    pre = ""
+    weight = 24
+    identifier = "components"
+    url = "/post/components"
+
+    [[menu.main]]
+    name = "Exception Handling"
+    pre = ""
+    weight = 25
+    identifier = "exceptions-handling"
+    url = "/post/exceptions-handling"
+
+    [[menu.main]]
+    name = "Providers"
+    pre = ""
+    weight = 26
+    identifier = "providers"
+    url = "/post/providers"
