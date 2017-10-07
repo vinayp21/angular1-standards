@@ -1,4 +1,4 @@
-baseurl = "https://www.example.com/" # Make sure to end baseurl with a '/'
+baseurl = "https://angular1-standards.herokuapp.com/" # Make sure to end baseurl with a '/'
 languageCode = "en-us"
 title = "Angular Style Guide"
 author = "Santhosh Raju"
